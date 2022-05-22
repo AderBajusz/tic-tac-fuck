@@ -5,3 +5,5 @@ A játék command line alapú, koordináták megadásával lehet játszani. Ezek
 | :---         |     :---:      |          ---: |
 | 10   | 11     | 12    |
 | 20     | 21      | 22      |
+
+Azaz ha "X"-ként játszunk, akkor a "00" inputtal a bal felső sarokba helyezzük el az ikonunkat.
