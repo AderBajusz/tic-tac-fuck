@@ -148,9 +148,9 @@ def minimax_miner(board, free_squares, depth, original_depth):
 	#print(depth, original_depth)
 	if depth > original_depth:
 		if depth % N_PLAYERS == AI_TURN_INDEX:
-			return max(evaluations)
-		else:
 			return min(evaluations)
+		else:
+			return max(evaluations)
 	else:
 		return evaluations
 
